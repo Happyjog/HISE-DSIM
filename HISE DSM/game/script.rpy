@@ -14,7 +14,7 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene village
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
@@ -28,7 +28,7 @@ label start:
 
     hise "Please take your steat."
 
-    hise "Im gonna take my top off."
+    # hise "Im gonna take my top off."
 
     # This ends the game.
 
