@@ -28,6 +28,8 @@ label start:
 
     hise "Please take your steat."
 
+    hise "Im gonna take my top off."
+
     # This ends the game.
 
     return
