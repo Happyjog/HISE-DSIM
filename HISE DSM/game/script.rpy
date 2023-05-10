@@ -4,7 +4,7 @@
 # name of the character.
 
 define hise = Character("Ms. Hise")
-
+define trav = Character("Traveller")
 
 # The game starts here.
 
@@ -31,5 +31,7 @@ label start:
     # hise "Im gonna take my top off."
 
     # This ends the game.
+
+    trav "Hey, you're finally awake"
 
     return
