@@ -5,6 +5,8 @@
 
 define hise = Character("Ms. Hise")
 define trav = Character("Traveller")
+define u = Character("Anon")
+
 
 # The game starts here.
 
@@ -28,10 +30,36 @@ label start:
 
     hise "Please take your steat."
 
+    "takes seat"
+
+    hise "I have some bad news and good news"
+
+    u "I'll have the bad news"
+
+    hise "Bad news is that you are going to have to retake this class"
+
+    "Bashes her head into the desk"
+
+
+
     # hise "Im gonna take my top off."
 
     # This ends the game.
 
     trav "Hey, you're finally awake"
+
+    hise "What happened"
+
+    trav "You were trying to cross the border"
+
+    "Ms. Hise is visably confused"
+
+    trav "You are in Skyrim now"
+
+
+
+    
+
+
 
     return
