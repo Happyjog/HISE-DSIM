@@ -56,6 +56,8 @@ label start:
 
     trav "You are in Skyrim now"
 
+    "True"
+
 
 
     
