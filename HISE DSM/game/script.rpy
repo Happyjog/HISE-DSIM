@@ -6,11 +6,16 @@
 define hise = Character("Ms. Hise")
 define trav = Character("Traveller")
 define u = Character("Anon")
+define ducky = Character("Rubber Duck")
 
 
 # The game starts here.
 
 label start:
+
+    $ u = renpy.input("Input name")
+
+    $ u = u.strip()
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
@@ -26,7 +31,7 @@ label start:
 
     # These display lines of dialogue.
 
-    hise "Hello anon."
+    hise "Hello [u]."
 
     hise "Please take your steat."
 
@@ -57,6 +62,21 @@ label start:
     trav "You are in Skyrim now"
 
     "True"
+
+    scene guild 
+
+    show hise smile at right
+    
+    with fade
+
+    hise "Where are we?"
+
+    show duck at left with dissolve
+
+    ducky "We welcome you humbly, humans."
+    ducky "The council shall decide your fate." 
+
+
 
 
 
