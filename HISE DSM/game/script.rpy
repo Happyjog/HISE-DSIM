@@ -7,6 +7,10 @@ define hise = Character("Ms. Hise")
 define trav = Character("Traveller")
 define u = Character("Anon")
 define ducky = Character("Rubber Duck")
+define bray = Character("Brayden")
+define nick = Character("NICK JOESTAR")
+define jojo = Character("Polnareff, Giorno, Kira Yoshikage")
+define brit = Character("Brit")
 
 
 # The game starts here.
