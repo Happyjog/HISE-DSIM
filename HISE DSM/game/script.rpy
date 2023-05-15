@@ -4,7 +4,6 @@
 # name of the character.
 
 define hise = Character("Ms. Hise")
-define trav = Character("Traveller")
 define u = Character("Anon")
 define ducky = Character("Rubber Duck")
 define bray = Character("Brayden")
@@ -83,11 +82,77 @@ label start:
             jump death
 
 
+    scene merchant shack
+    
+    show almost brit at right
+
+    show hise smile at left
+
+    brit "Hello traveler, what can I do for you"
+
+    hise "We're lost... yo usee wh're not exactly from here"
+
+    brit "There there, the homesick feeling is one I know all to well"
+
+    brit "So, blue eyes, medium frame, stunning smile... you must be from the north. "
+
+    hise "Well, not exactly"
+
+    hise "We were attacked by someone... and ended up in your world."
+
+    brit "well, im not too acquainted in world to world travel..."
+
+    brit "but a customer is a customer all the same, so i'll se if I have anything for ya."
+
+    "Brit rummages through droors and cabinets."
+
+    brit "I know it's here somewhere."
+
+    brit "hmmm... here we are"
+
+    hise "what is it?"
+
+    brit "Its a scroll I recieved, not too long ago actually."
+
+    "Brit unrolls the scroll"
+
+    brit "I think this could maybe help you guys"
+
+    hise "So... whats it say."
+
+    brit "It reads \"To whom it may concern: \""
+
+    brit "\"Ive been traveling for some time, with beastly opponents challenging me after every turn\" "
+
+    brit "\"Throughout the heavens and earth, I alone am the honored one\""
+
+    brit "\"With eternal power I am renowned\""
+
+    brit "\"This all through the fabrics of the {i} ELDER CODE {/i} \""
+
+    brit "\"located at the Joestar catacombs, it holds unruly amounts of power, capable of controlling ALL REALITIES\""
+
+    brit "Its signed Trevor Packer"
+
+    hise "Ok... sorry but who is that"
+
+    brit "Its "
+
+
+
+
+
+
     label tavern:
     
     label death:
 
     scene death
+
+
+
+
+
     
 
 
