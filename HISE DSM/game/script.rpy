@@ -118,9 +118,9 @@ label start:
         #    jump death
 
 
-    scene merchant shack
+    scene merchant 2
     
-    show almost brit at right
+    show almost brit at center
 
     show hise smile at left
 
@@ -172,7 +172,35 @@ label start:
 
     hise "Ok... sorry but who is that"
 
-    brit "Its "
+    brit "Its only the most powerful man in all of Coderym."
+
+    brit "Its always been a mystery how that tyrant became ruler, but I guess the secret to his power was sitting in MY shop all along."
+
+    brit "My shop huh?... im pretty awesome arent I?"
+
+    hise "I-"
+
+    "*sighs*"
+
+    hise "I suppose so, but what does that information mean for us?"
+
+    brit "It means you'll go to the deep dark depths of the Joestar catacombs and get that Elder Code."
+
+    hise "Why us... dont you have some powerful ally to so this type of thing?"
+
+    brit "Nope, im just a simple merchant, I can come if ya want"
+
+    hise "If you insis-"
+
+    brit "Of COURSE i'll go... I can show you how to get there and... well I always wanted to go on a grand quest!"
+
+    hise "[u]... are we sure we want to take him with us?"
+
+    u "I think it'll be alright, he knows the area better than we do after all?"
+
+    
+
+
 
 
     
