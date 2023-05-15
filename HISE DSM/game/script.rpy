@@ -212,27 +212,27 @@ label start:
 
 
 
-    brit "Look, its Braydon's army"
+    brit "Look, its Braydon's army."
 
-        "You peer over to the organized army and realize who is leading it"
+    "You peer over to the organized army and realize who is leading it."
 
-    john "Its Mrs. Heis..."
+    john "It's Ms. Hise..."
 
-    u "We proceed with the plan as intended"
+    u "We proceed with the plan as intended."
 
     brit "This makes no sense how could a person so good turn evil?"
 
-    john "I know this is a longshot but I think she might be controlled"
+    john "I know this is a longshot but I think she might be controlled."
 
-    "You take a closer look with binoculars"
+    "You take a closer look with binoculars."
 
-    u "Johnathan you are right! Her eyes are glazed over as if she's a zombie"
+    u "Johnathan you are right! Her eyes are glazed over as if she's a zombie."
 
-    brit "Oh no"
+    brit "Oh no..."
 
     john "What?"
 
-    brit "Braydon must be using his dark code to control Mrs. Heis"
+    brit "Braydon must be using his dark code to control Ms. Hise"
 
     "All characters set up a camp, cold without fire in fear of being spotted in the upcoming battle"
 
@@ -264,7 +264,7 @@ label start:
 
     u "We countinue in, more urgently. We will finish what we start"
 
-    john "Mrs. Heis..."
+    john "Ms. Hise..."
 
     u "Reserve hope, do not cause injure in prayers she returns to normal"
 
@@ -280,11 +280,11 @@ label start:
 
     john "Hel..."
 
-    "His cry for help turns into a gargle as he is dispatched by Mrs. Heis, Braydon standing behind her"
+    "His cry for help turns into a gargle as he is dispatched by Ms. Hise, Braydon standing behind her"
 
     "You go numb, an eternity passes as his body hits the ground"
 
-    #You get a choice to charge Mrs. Heis or retreat to a better position I am writing the ending of you retreating
+    #You get a choice to charge Ms. Hise or retreat to a better position I am writing the ending of you retreating
 
     "You run to the gate as countless soliders come out of tents"
 
@@ -300,15 +300,15 @@ label start:
 
     "They had been there the whole time, just masked through by adreniline"
 
-    "By the time you finish off the waves of men a wall of flesh seperate you and Mrs. Heis"
+    "By the time you finish off the waves of men a wall of flesh seperate you and Ms. Hise"
 
     u "Braydon, I won't let you win"
 
-    bray "I already have, Mrs. Heis has no choice but to kill you under my control"
+    bray "I already have, Ms. Hise has no choice but to kill you under my control"
 
     "She dashes at you in a frenzied sword storm"
 
-    "You dodge missing the blunt of the attack, but are too late to react the recovery of Mrs. Heis"
+    "You dodge missing the blunt of the attack, but are too late to react the recovery of Ms. Hise"
 
     "And yet this is exactly what you wanted as you sit on the ground defenceless"
 
