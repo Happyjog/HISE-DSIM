@@ -35,15 +35,9 @@ label start:
 
     hise "Please take your steat."
 
-    "takes seat"
+    "I sit down in the seat"
 
-    hise "I have some bad news and good news"
-
-    u "I'll have the bad news"
-
-    hise "Bad news is that you are going to have to retake this class"
-
-    "Bashes her head into the desk"
+   
 
 
 
@@ -75,6 +69,29 @@ label start:
 
     ducky "We welcome you humbly, humans."
     ducky "The council shall decide your fate." 
+
+    menu:
+
+        "I will shake your hand":
+            jump tavern
+
+        "I will not shake your hand":
+            jump death
+
+
+    label tavern:
+    
+    label death:
+
+    scene death
+    
+
+
+
+
+
+
+
 
 
 

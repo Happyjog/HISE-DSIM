@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 33: end of line expected.
-    hise "Hello " + u + "."
-                  ^
+File "game/script.rpy", line 40: expected statement.
+    hise 
+         ^
+
+File "game/script.rpy", line 86: expected 'image_name_component' not found.
+    scene scene death
+          ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed May 10 22:25:36 2023
+Sun May 14 21:11:55 2023
