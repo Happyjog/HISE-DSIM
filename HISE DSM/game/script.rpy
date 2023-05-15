@@ -10,6 +10,8 @@ define bray = Character("Brayden")
 define nick = Character("NICK JOESTAR")
 define jojo = Character("Polnareff, Giorno, Kira Yoshikage")
 define brit = Character("Brit")
+define john = Character("Johnathan")
+
 
 
 
@@ -177,6 +179,11 @@ label start:
 
     scene death
     
+    
+
+
+
+
 
 
 
