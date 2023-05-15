@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 40: expected statement.
-    hise 
-         ^
-
-File "game/script.rpy", line 86: expected 'image_name_component' not found.
-    scene scene death
-          ^
+File "game/script.rpy", line 16: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
+    $ eye2 = ImageDissolve("wipes/eye.png", 2, ramplen=128, reverse=True, time_warp=eyewarp)
+    ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun May 14 21:11:55 2023
+Sun May 14 22:44:33 2023
