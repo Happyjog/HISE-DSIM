@@ -74,33 +74,39 @@ label start:
     "I'm light headed now. My vision starts to blur."
     hise "Stay with me [u]! Stay... with... me..."
     "Ms. Hise's vague outline is panicking, but her speech becomes sluggish."
+
+    scene black
+    with dissolve
     
     "And with that, I lose consiousness."
 
 
 
-
-   
-
-
-
-
-    # This ends the game.
-
-
     scene guild 
 
-    show hise smile at right
+    show hise smile
     
     with fade
+    "With heavy eyelids, I open my eyes. My eyes swim awound to scan the room. "
 
-    hise "Where are we?"
+    hise "-how are we going to... [u]!"
+    "Ms. Hise looks at me with concern."
+    hise "How do you feel?"
+    u "I feel... fine."
+    "My body seemed to be fine, just sluggish."
+    "I look over to my left to see a big yellow figure."
+
+    show hise smile at right with moveoutright
 
     show duck at left with dissolve
 
-    ducky "We welcome you humbly, humans."
-    ducky "The council shall decide your fate." 
-
+    ducky "Hey, you're finally awake."
+    "Wha-"
+    u "A... rubber duck?"
+    ducky "That's SIR RUBBER DUCK to you!"
+    "I really doubt it."
+    u "Where is this Ms. Hise?"
+    ""
     #menu:
 
     #   "I will shake your hand":
@@ -188,14 +194,12 @@ label start:
 
 
 
-    
-
 
 
     return
 
     label death:
-
     scene death
 
     "Done, Finished."
+    
