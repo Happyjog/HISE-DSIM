@@ -167,9 +167,7 @@ label start:
     brit "Its "
 
 
-    label tavern:
     
-    label death:
 
     scene death
     
