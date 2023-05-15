@@ -209,4 +209,120 @@ label start:
     scene death
 
     "Done, Finished."
-    
+
+
+
+    brit "Look, its Braydon's army"
+
+        "You peer over to the organized army and realize who is leading it"
+
+    john "Its Mrs. Heis..."
+
+    u "We proceed with the plan as intended"
+
+    brit "This makes no sense how could a person so good turn evil?"
+
+    john "I know this is a longshot but I think she might be controlled"
+
+    "You take a closer look with binoculars"
+
+    u "Johnathan you are right! Her eyes are glazed over as if she's a zombie"
+
+    brit "Oh no"
+
+    john "What?"
+
+    brit "Braydon must be using his dark code to control Mrs. Heis"
+
+    "All characters set up a camp, cold without fire in fear of being spotted in the upcoming battle"
+
+    "Timeskip to nightime with moon out in the sky"
+
+    brit "As you all know I won't be able to participate in the upcoming battle; however, if I may over some adive"
+
+    "Slight pause as everyone leans in to listen"
+
+    brit "As the moon shines illuminating their camp in such a horrible light, an attack is in order"
+
+    "Brit stands up"
+
+    brit "Braydon has fought yet with only dirty dihonorable tatics, he does so with great success. Attacking at night provides you with free fatalities before a real fight begins giving an advantage to your outnumbered group"
+
+    #Choice to agree or disagree next lines will be agreeable lines
+
+    john "I absolutley agree, we will strike in 5"
+
+    u "Farewell Brit and safe travels"
+
+    "Brit leaves as you and Johnathan prepare to scout upon a nearby ledge"
+
+    john "This is the time to strike, they are full of beer and food sleeping well"
+
+    u "The guards are barley awake swaying at their posts we take them out first. Next, we take out those in outermost tents working our way in."
+
+    john "And if we get caught?"
+
+    u "We countinue in, more urgently. We will finish what we start"
+
+    john "Mrs. Heis..."
+
+    u "Reserve hope, do not cause injure in prayers she returns to normal"
+
+    "Slight time skip to entrance of camp hiding behind some trees"
+
+    "You countinue to the right of the first guard and Johnathan moves to the left of the second guard"
+
+    "After taking the guards out you and Johnathan countinue to the tents"
+
+    "Exiting the umptenth tent with bloody hands you hear a scream. Its Johnathan"
+
+    u "I'm about to come!"
+
+    john "Hel..."
+
+    "His cry for help turns into a gargle as he is dispatched by Mrs. Heis, Braydon standing behind her"
+
+    "You go numb, an eternity passes as his body hits the ground"
+
+    #You get a choice to charge Mrs. Heis or retreat to a better position I am writing the ending of you retreating
+
+    "You run to the gate as countless soliders come out of tents"
+
+    "Sliding to a stop at the entrance you unsheathe your sword"
+
+    u "Come at me you cowards! No amount of men will rivial my strength!"
+
+    "You swing a mighty greatsword with the strength of ten men. Standing in the wake of your gruesome strokes stand men with half missing"
+
+    "Endless men come to you, spotlighted in moonlight you do nothing but rage against the tide"
+
+    "The first injury came after as a throb, quickly followed by serveral more"
+
+    "They had been there the whole time, just masked through by adreniline"
+
+    "By the time you finish off the waves of men a wall of flesh seperate you and Mrs. Heis"
+
+    u "Braydon, I won't let you win"
+
+    bray "I already have, Mrs. Heis has no choice but to kill you under my control"
+
+    "She dashes at you in a frenzied sword storm"
+
+    "You dodge missing the blunt of the attack, but are too late to react the recovery of Mrs. Heis"
+
+    "And yet this is exactly what you wanted as you sit on the ground defenceless"
+
+    bray "I TOLD you winning was never acheivable"
+
+    "He walks over to look you in the eye"
+
+    bray "You shall die"
+
+    "You unleashe a hidden dagger and stab braydon in the heart"
+
+    #End of fighting
+
+
+     
+
+
