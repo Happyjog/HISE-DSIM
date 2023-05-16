@@ -10,7 +10,7 @@ define bray = Character("Brayden")
 define nick = Character("NICK JOESTAR")
 define jojo = Character("Polnareff, Giorno, Kira Yoshikage")
 define brit = Character("Brit")
-define john = Character("Johnathan")
+define john = Character("Jonathan")
 
 
 
@@ -110,7 +110,20 @@ label start:
     u "Where is this Ms. Hise?"
     "Ms. Hise smirks bitterly and looks at the duck."
     ducky "Welcome, to Coderym!"
-    "The duck announces with great pride."
+    "The duck announces with great pride." 
+    "Ms. Hise smiles at the duck and claps for him."
+    hise "Now, Sir Rubber Duck, could you generously tell us what you need us to do now that [u] is up?"
+    ducky "Oh... of course. *ahem*, first, I've seen how the woman can program. I need you two to get the Elder Code and change the world."
+    "My mouth hangs down off of my chin. This is ridiculous."
+    "I look over at Ms. Hise and her eye twitches. It has to be in disbelief."
+    hise "Sir... we aren't very familiar with the \"Elden Code\"."
+    "The big duck's eyes light up."
+    ducky "We have prepared, since we summoned you here and all."
+    "Another revelation. These stupid ducks summoned us here?"
+    u "Woah, who said we wanted to be summoned?"
+    "Ms. Hise pinches my leg."
+    
+    
     
     #menu:
 
@@ -199,7 +212,7 @@ label start:
 
     hise "[u]... are we sure we want to take him with us?"
 
-    u "I think it'll be alright, he knows the area better than we do after all?"
+    u "I think it'll be alright, it seems he knows the area better than we do after all."
 
     
 
@@ -258,7 +271,7 @@ label start:
 
     "You take a closer look with binoculars."
 
-    u "Johnathan you are right! Her eyes are glazed over as if she's a zombie."
+    u "Jonathan you are right! Her eyes are glazed over as if she's a zombie."
 
     brit "Oh no..."
 
@@ -286,7 +299,7 @@ label start:
 
     u "Farewell Brit and safe travels"
 
-    "Brit leaves as you and Johnathan prepare to scout upon a nearby ledge"
+    "Brit leaves as you and Jonathan prepare to scout upon a nearby ledge"
 
     john "This is the time to strike, they are full of beer and food sleeping well"
 
@@ -302,11 +315,11 @@ label start:
 
     "Slight time skip to entrance of camp hiding behind some trees"
 
-    "You countinue to the right of the first guard and Johnathan moves to the left of the second guard"
+    "You countinue to the right of the first guard and Jonathan moves to the left of the second guard"
 
-    "After taking the guards out you and Johnathan countinue to the tents"
+    "After taking the guards out you and Jonathan countinue to the tents"
 
-    "Exiting the umptenth tent with bloody hands you hear a scream. It's Johnathan"
+    "Exiting the umptenth tent with bloody hands you hear a scream. It's Jonathan"
 
     u "I'm about to come!"
 
