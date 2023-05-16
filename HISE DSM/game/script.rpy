@@ -122,10 +122,17 @@ label start:
     "Another revelation. These stupid ducks summoned us here?"
     u "Woah, who said we wanted to be summoned?"
     "Ms. Hise pinches my leg."
-    hise "*whispering* {i}You're gonna antagonize the rubber ducks? What are you doing?{/i} Sorry sir, he's still confused."
+    hise "*whispering* {i}You're gonna antagonize the rubber ducks? What are you doing? AND they're cute!{/i} Sorry sir, he's still confused."
     "The big dumb duck sighs and clears his throat again."
     ducky "As I was going to explain, we are in a world where the very foundation of Law, Order, and Principle has been fractured."
-    duck
+    ducky "Nick Jojo the Puppetmaster and Braydon the Horrible fractured the Elden Code and took the halves."
+    ducky "Your job is to retrieve the Elden Code and restore order to this world once again!"
+    ducky "Here is a map to Grit the Wise Shopkeeper's market. Confide with him and retrieve the code!"
+    "The duck shoves us out of the tavern and leaves us with nothing but a map to Grit's shop."
+    u "That dumb..."
+    hise "Okay! It's time to go!"
+    "Pointing toward the direction of the shop, she starts striding toward it. She seems awfully enthusiastic huh."
+    "And so we start our journey toward a shopkeeper we have never heard of in a land we have never seen before."
     
     #menu:
 
@@ -151,6 +158,8 @@ label start:
     scene jojo meadow
 
     show hise smile at left
+
+    with dissolve
 
         
 
@@ -460,7 +469,7 @@ label death:
 
     #image of the rune
 
-    "We connect th    e peices. There is a flash of light."
+    "We connect the peices. There is a flash of light."
 
     #screen change to back to science Hill High School
 
