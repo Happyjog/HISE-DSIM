@@ -108,7 +108,10 @@ label start:
     ducky "That's SIR RUBBER DUCK to you!"
     "I really doubt it."
     u "Where is this Ms. Hise?"
-    ""
+    "Ms. Hise smirks bitterly and looks at the duck."
+    ducky "Welcome, to Coderym!"
+    "The duck announces with great pride."
+    
     #menu:
 
     #   "I will shake your hand":
@@ -177,7 +180,6 @@ label start:
 
     
 
-    scene death
     
     
 
@@ -210,6 +212,8 @@ label start:
 
     "Done, Finished."
 
+    return
+
 
 
     brit "Look, its Braydon's army."
@@ -220,7 +224,7 @@ label start:
 
     u "We proceed with the plan as intended."
 
-    brit "This makes no sense how could a person so good turn evil?"
+    brit "This makes no sense how could a person so pure turn evil?"
 
     john "I know this is a longshot but I think she might be controlled."
 
@@ -274,7 +278,7 @@ label start:
 
     "After taking the guards out you and Johnathan countinue to the tents"
 
-    "Exiting the umptenth tent with bloody hands you hear a scream. Its Johnathan"
+    "Exiting the umptenth tent with bloody hands you hear a scream. It's Johnathan"
 
     u "I'm about to come!"
 
@@ -298,7 +302,7 @@ label start:
 
     "The first injury came after as a throb, quickly followed by serveral more"
 
-    "They had been there the whole time, just masked through by adreniline"
+    "They had been there the whole time, just masked through by adrenaline"
 
     "By the time you finish off the waves of men a wall of flesh seperate you and Ms. Hise"
 
@@ -310,7 +314,7 @@ label start:
 
     "You dodge missing the blunt of the attack, but are too late to react the recovery of Ms. Hise"
 
-    "And yet this is exactly what you wanted as you sit on the ground defenceless"
+    "And yet this is exactly what you wanted as you sit on the ground defenseless"
 
     bray "I TOLD you winning was never acheivable"
 
