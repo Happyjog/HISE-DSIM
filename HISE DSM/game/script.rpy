@@ -456,7 +456,7 @@ label jojosuccess:
 
     "She dashes at you in a frenzied sword storm"
 
-    "You dodge missing the blunt of the attack, but are too late to react the recovery of Ms. Hise"
+    "You dodge, missing the blunt of the attack, but are too late reacting to the recovery of Ms. Hise"
 
     "And yet this is exactly what you wanted as you sit on the ground defenseless"
 
@@ -467,6 +467,31 @@ label jojosuccess:
     bray "You shall die"
 
     "You unleashe a hidden dagger and stab Braydon in the heart"
+
+    "We connect the peices. There is a flash of light."
+
+    scene bg classroom
+
+    "I'm sitting down, just as I was before all of the sleeping gas."
+
+    u "Was that real?"
+
+    hise "Yeah, it was real."
+
+    "A moment of silence."
+
+    hise "Let's forget this ever happened, all that matters is that we made it out safe."
+
+    menu:
+
+        "I think we need to live with that Ms. Hise.":
+            jump goodending
+
+        "Yeah, I'd like to forget that too. *Glaring*":
+            jump badending
+
+
+
 
     #End of fighting
     
@@ -494,24 +519,8 @@ label death:
 
     #image of the rune
 
-    "We connect the peices. There is a flash of light."
-
-    #screen change to back to science Hill High School
-
-    "You stand, swaying, faint."
-
-    u "It's almost as if I never sat down."
-
-    "You stare at Ms. Hise."
-
-    hise "Forget the bad grade sit down anyway."
-
-    "She pulls the paper off her desk."
-
-    u "I really can't belive that happened..."
-
-    hise "[u], we shouldn't. Forget it happened, carry on with your life."
-
+label badending:
+    
     u "How am I just supposed to forget?! I've killed people to stand where I stand today. YOU almost killed me!"
 
     "Ms. Hise looks up."
@@ -530,6 +539,8 @@ label death:
 
     "You walk out."
 
+    return
+
     #End of story
 
 
@@ -537,20 +548,7 @@ label death:
 
     #image of the rune
 
-    "We connect the peices. There is a flash of light."
-
-    #screen change to back to science Hill High School
-
-    "I'm sitting down, just as I was before all of the sleeping gas."
-
-    u "Was that real?"
-
-    hise "Yeah, it was real."
-
-    "A moment of silence."
-
-    hise "Let's forget this ever happened, all that matters is that we made it out safe."
-
+label goodending:
     u "I agree, that brought out the worst in both of us. Even so I see you in a better light despite your mind control."
 
     "Ms. Hise starts to cry"
@@ -566,6 +564,10 @@ label death:
     u "Don't worry about it, I hope to see you soon."
 
     hise "You too."
+
+    "You walk out of the classroom with your head up high."
+
+    return
 
     #end of good ending
 
