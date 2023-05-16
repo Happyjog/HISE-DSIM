@@ -349,6 +349,7 @@ label jojosuccess:
     scene brayden battle 
 
     show brit 
+    show jon at left
     
     
     with dissolve
@@ -427,6 +428,8 @@ label jojosuccess:
     u "I'm about to come!"
 
     john "Hel..."
+
+    hide jon
 
     "His cry for help turns into a gargle as he is dispatched by Ms. Hise, Braydon standing behind her"
 
