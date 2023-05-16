@@ -20,7 +20,7 @@ image purptint:
     alpha 0.3
     additive 1.0
 
-$ flash = Fade(.25, 0, .75, color="#fff")
+# $ flash = Fade(.25, 0, .75, color="#fff")
 
 
 # The game starts here.
@@ -493,9 +493,11 @@ label jojosuccess:
 
     "We connect the peices. There is a flash of light."
 
-    scene bg classroom with flash
+    scene bg classroom
 
     show hise smile
+
+    with Fade(.25, 0, .75, color="#fff")
 
     "I'm sitting down, just as I was before all of the sleeping gas."
 
