@@ -358,7 +358,7 @@ label jojosuccess:
     "We march to the overlook above the battlefield where Braydon the Horrible awaited us."
 
     
-    scene brayden battle 
+    scene bb
 
     show brit 
     show jon at left
@@ -370,6 +370,15 @@ label jojosuccess:
 
     
 
+    "Suddenly, Ms. Hise starts marching toward the battlefield without any directions from the team."
+
+    u "Ms. Hise?"
+
+    "She doesn't respond and keeps walking down the hill when we notice the army marching toward us."
+
+    "It took us a few minutes to take in the immesurable amount of soldiers that faced up against us."
+
+    "Brit snaps us back to reality."
 
 
 
@@ -381,11 +390,15 @@ label jojosuccess:
 
     show hise smile at topright
 
-    john "It's Ms. Hise..."
+    u "It's Ms. Hise..."
 
-    u "We proceed with the plan as intended."
+    john "We proceed with the plan as intended."
 
-    brit "This makes no sense how could a person so pure turn evil?"
+    "I look over at the man I have never seen before."
+
+    john "Jonathan Bennah, a friend of Brit's I heard you might need help."
+
+    brit "Glad you made it Jon! Anyway, this makes no sense how could a person so pure turn evil?"
 
     john "I know this is a longshot but I think she might be controlled."
 
