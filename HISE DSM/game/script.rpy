@@ -169,7 +169,7 @@ label start:
 
     hise "Right."
 
-    show nick jojo at right
+    show nick jojo 2 at right
 
     hise "Hey... can you help us?"
 
