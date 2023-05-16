@@ -183,11 +183,11 @@ label start:
 
     "Nick jojo joestar summons his three puppets "
 
-    show giorno at right
+    show giorno 2 at right
 
-    show polnareff at topright
+    show polnareff 2 at topleft
 
-    show kira at topright
+    show kira 2 at topright
 
     nick "My Name is Nick Jojo Joestar, remember as the man who game ended you"
 
@@ -337,21 +337,26 @@ label jojosuccess:
 
     hise "If you insis-"
 
-    brit "Of COURSE i'll go... I can show you how to get there and... well I always wanted to go on a grand quest!"
+    brit "Of COURSE I'll go... I can show you how to get there and... well I always wanted to go on a grand quest!"
 
     hise "[u]... are we sure we want to take him with us?"
 
-    u "I think it'll be alright, he knows the area better than we do after all?"
+    u "I think it'll be alright, he probably knows the area better than we do."
 
-label jojodeath:
-    jump death
+    "We march down to the battlefield where Braydon the Horrible awaited us."
 
-label death:
-    scene death
+    
+    scene brayden battle 
 
-    "Done, Finished."
+    show almost brit 
+    
+    
+    with dissolve
 
-    return
+
+
+
+
 
 
 
@@ -464,6 +469,22 @@ label death:
     "You unleashe a hidden dagger and stab Braydon in the heart"
 
     #End of fighting
+    
+
+label jojodeath:
+    "The puppets slam you to the ground at an incredible speed and knocks you unconcious."
+    jump death
+
+label death:
+    scene death
+
+    "Done, Finished."
+
+    return
+
+
+
+ 
 
 
 
