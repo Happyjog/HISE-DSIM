@@ -460,7 +460,7 @@ label death:
 
     #image of the rune
 
-    "We connect the peices. There is a flash of light."
+    "We connect th    e peices. There is a flash of light."
 
     #screen change to back to science Hill High School
 
@@ -497,6 +497,48 @@ label death:
     "You walk out."
 
     #End of story
+
+
+    #happy ending
+
+    #image of the rune
+
+    "We connect the peices. There is a flash of light."
+
+    #screen change to back to science Hill High School
+
+    "I'm sitting down, just as I was before all of the sleeping gas."
+
+    u "Was that real?"
+
+    hise "Yeah, it was real."
+
+    "A moment of silence."
+
+    hise "Let's forget this ever happened, all that matters is that we made it out safe."
+
+    u "I agree, that brought out the worst in both of us. Even so I see you in a better light despite your mind control."
+
+    "Ms. Hise starts to cry"
+
+    hise "I can't belive you can forgive me."
+
+    u "It's alright, it wasn't really you anyway."
+
+    "You get up to leave."
+
+    hise "I can't thank you enough for being so stoic."
+
+    u "Don't worry about it, I hope to see you soon."
+
+    hise "You too."
+
+    #end of good ending
+
+
+
+
+
 
 
      
