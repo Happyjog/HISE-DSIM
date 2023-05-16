@@ -199,7 +199,7 @@ label start:
 
     "The puppets attack left right and center."
 
-    "Mrs hise and [u] take various loads, one after another"
+    "Mrs hise and [u] trade blows, one after another"
 
     u "Ms Hise... what do we do?!?"
 
