@@ -265,7 +265,7 @@ label jojosuccess:
 
     scene merchant 2
     
-    show almost brit at center
+    show brit at center
 
     show hise smile at left
 
@@ -348,7 +348,7 @@ label jojosuccess:
     
     scene brayden battle 
 
-    show almost brit 
+    show brit 
     
     
     with dissolve
