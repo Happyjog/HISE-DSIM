@@ -265,7 +265,7 @@ label jojosuccess:
 
     scene merchant 2
     
-    show brit at center
+    show brit at truecenter
 
     show hise smile at left
 
@@ -343,7 +343,7 @@ label jojosuccess:
 
     u "I think it'll be alright, he probably knows the area better than we do."
 
-    "We march down to the battlefield where Braydon the Horrible awaited us."
+    "We march to the overlook above the battlefield where Braydon the Horrible awaited us."
 
     
     scene brayden battle 
@@ -520,6 +520,7 @@ label death:
     #image of the rune
 
 label badending:
+    show hise smile at center
     
     u "How am I just supposed to forget?! I've killed people to stand where I stand today. YOU almost killed me!"
 
@@ -549,6 +550,7 @@ label badending:
     #image of the rune
 
 label goodending:
+    show hise smile at center
     u "I agree, that brought out the worst in both of us. Even so I see you in a better light despite your mind control."
 
     "Ms. Hise starts to cry"
