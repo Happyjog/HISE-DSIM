@@ -127,8 +127,8 @@ label start:
     ducky "As I was going to explain, we are in a world where the very foundation of Law, Order, and Principle has been fractured."
     ducky "Nick Jojo the Puppetmaster and Braydon the Horrible fractured the Elden Code and took the halves."
     ducky "Your job is to retrieve the Elden Code and restore order to this world once again!"
-    ducky "Here is a map to Grit the Wise Shopkeeper's market. Confide with him and retrieve the code!"
-    "The duck shoves us out of the tavern and leaves us with nothing but a map to Grit's shop."
+    ducky "Here is a map to Brit the Wise Shopkeeper's market. Confide with him and retrieve the code!"
+    "The duck shoves us out of the tavern and leaves us with nothing but a map to Brit's shop."
     u "That dumb..."
     hise "Okay! It's time to go!"
     "Pointing toward the direction of the shop, she starts striding toward it. She seems awfully enthusiastic huh."
@@ -251,11 +251,15 @@ label start:
     return
 
 label jojosuccess:
+    "Nick Jojo retaliates but you are easily able to overpower him. The puppets fall to the ground and cease all movement."
+    hise "Quick, look for the shard of the Elden Code!"
+    "You pat down Nick Jojo's body and find the shard inside of one of his bags."
+    "She offers her open hand in front of her. I give it a smack, high-fiving her."
     scene jojo meadow
     show hise smile at center
     hise "[u], we beat him, all thanks to your quick thinking."
 
-    u "Thanks, but we still have to get home. "
+    u "Thanks, let's continue to ."
 
     # BRIT SCENE
 
