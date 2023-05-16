@@ -136,6 +136,120 @@ label start:
         #    jump death
 
 
+
+
+    
+
+
+
+
+    
+
+    
+    
+
+    scene jojo meadow
+
+    show hise smile at left
+
+        
+
+    hise "Look [u], it seems theres a local... lets go talk to him."
+
+    u "Ok Ms. Hise, but be careful... remember how we got here."
+
+    hise "Right."
+
+    show Nick at right
+
+    hise "Hey... can you help us?"
+
+    nick "Hmph... How impudent of you."
+
+    hise "Im sorry, we need directions to a city... or maybe a guide?"
+
+    nick "I dont waste my time with filth like you two."
+
+    nick "I shall teach grime like you a lesson."
+
+    "Nick jojo joestar summons his three puppets "
+
+    show giorno at right
+
+    show polnareff at topright
+
+    show kira at topright
+
+    nick "My Name is Nick Jojo Joestar, remember as the man who game ended you"
+
+    nick "Now my divine children, rid the land of these parasytes"
+
+    stands "Yes father, we serve you and only you."
+
+        
+
+    "The puppets attack left right and center."
+
+    "Mrs hise and [u] take various blows, one after another"
+
+    u "Ms Hise... what do we do?!?"
+
+    hise "Im at a loss [u], we have to find a weak spot of some sort"
+
+    u "Well you're still my teacher, teach me how to beat him!"
+
+        nick "Ignorant fools, I have no weaknesses."
+
+    nick "My puppets were a gift from the gods, they know no bounds and have no limits."
+
+    "*[u] whispers to Ms Hise*"
+
+    u "Ms Hise, he only mentioned his puppets."
+
+    u "What if directly attack him, and just evade his puppets attacks."
+
+    hise "We can try... its your call though"
+
+    menu:
+
+        "We'll attack Nick jojo directly":
+            jump jojo success
+
+        "We'll wait for an opening and attack then":
+            jump jojo death
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return
+
+label jojo success:
+    scene jojo meadow
+    show hise smile at center
+    hise "[u], we beat him, all thanks to your quick thinking."
+
+    u "Thanks, but we still have to get home. "
+
+    # BRIT SCENE
+
     scene merchant 2
     
     show almost brit at center
@@ -144,7 +258,7 @@ label start:
 
     brit "Hello traveler, what can I do for you"
 
-    hise "We're lost... yo usee wh're not exactly from here"
+    hise "We're lost... yo usee whe're not exactly from here"
 
     brit "There there, the homesick feeling is one I know all to well"
 
@@ -214,43 +328,12 @@ label start:
 
     hise "[u]... are we sure we want to take him with us?"
 
-    u "I think it'll be alright, it seems he knows the area better than we do after all."
+    u "I think it'll be alright, he knows the area better than we do after all?"
 
-    
+label jojo death:
+    jump death
 
-
-
-
-    
-
-    
-    
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    return
-
-    label death:
+label death:
     scene death
 
     "Done, Finished."
