@@ -44,7 +44,7 @@ label start:
     # These display lines of dialogue.
 
     hise "Hello [u]."
-    hise "Please take your steat."
+    hise "Please take your seat."
     "I sit down."
     u "What's this about Ms. Hise?"
     "She slips a paper labled unit 9 test my way. It has the number \"46\" written in red at the top."
@@ -350,7 +350,7 @@ label start:
 
     bray "You shall die"
 
-    "You unleashe a hidden dagger and stab braydon in the heart"
+    "You unleashe a hidden dagger and stab Braydon in the heart"
 
     #End of fighting
 
