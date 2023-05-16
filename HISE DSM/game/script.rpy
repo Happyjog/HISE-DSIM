@@ -355,6 +355,52 @@ label start:
     #End of fighting
 
 
+
+
+
+
+
+    #image of the rune
+
+    "We connect the peices. There is a flash of light."
+
+    #screen change to back to science Hill High School
+
+    "You stand, swaying, faint."
+
+    u "It's almost as if I never sat down."
+
+    "You stare at Ms. Hise."
+
+    hise "Forget the bad grade sit down anyway."
+
+    "She pulls the paper off her desk."
+
+    u "I really can't belive that happened..."
+
+    hise "[u], we shouldn't. Forget it happened, carry on with your life."
+
+    u "How am I just supposed to forget?! I've killed people to stand where I stand today. YOU almost killed me!"
+
+    "Ms. Hise looks up."
+
+    hise "But I didn't."
+
+    "You stare at her dumbfounded until realization hits you."
+
+    "You can't forgive her even if it wasn't her falt, you can't look her in the eye even if its truley hers you are looking into."
+
+    u "I don't want to see you again."
+
+    "You walk to the door until you hear a voice."
+
+    hise "I understand, I hope you won't grow resentful nonetheless."
+
+    "You walk out."
+
+    #End of story
+
+
      
 
 
