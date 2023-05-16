@@ -8,7 +8,7 @@ define u = Character("Anon")
 define ducky = Character("Rubber Duck")
 define bray = Character("Brayden")
 define nick = Character("NICK JOESTAR")
-define jojo = Character("Polnareff, Giorno, Kira Yoshikage")
+define stands = Character("Polnareff, Giorno, Kira Yoshikage")
 define brit = Character("Brit")
 define john = Character("Jonathan")
 
@@ -110,7 +110,7 @@ label start:
     u "Where is this Ms. Hise?"
     "Ms. Hise smirks bitterly and looks at the duck."
     ducky "Welcome, to Coderym!"
-    "The duck announces with great pride." 
+    "The duck announces with great pride."
     "Ms. Hise smiles at the duck and claps for him."
     hise "Now, Sir Rubber Duck, could you generously tell us what you need us to do now that [u] is up?"
     ducky "Oh... of course. *ahem*, first, I've seen how the woman can program. I need you two to get the Elder Code and change the world."
@@ -122,8 +122,10 @@ label start:
     "Another revelation. These stupid ducks summoned us here?"
     u "Woah, who said we wanted to be summoned?"
     "Ms. Hise pinches my leg."
-    
-    
+    hise "*whispering* {i}You're gonna antagonize the rubber ducks? What are you doing?{/i} Sorry sir, he's still confused."
+    "The big dumb duck sighs and clears his throat again."
+    ducky "As I was going to explain, we are in a world where the very foundation of Law, Order, and Principle has been fractured."
+    duck
     
     #menu:
 
@@ -415,5 +417,4 @@ label start:
 
 
      
-
 
