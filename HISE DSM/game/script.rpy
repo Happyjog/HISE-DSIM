@@ -343,7 +343,7 @@ label jojosuccess:
 
     u "I think it'll be alright, he probably knows the area better than we do."
 
-    "We march down to the battlefield where Braydon the Horrible awaited us."
+    "We march to the overlook above the battlefield where Braydon the Horrible awaited us."
 
     
     scene brayden battle 
