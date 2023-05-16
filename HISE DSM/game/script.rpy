@@ -169,7 +169,7 @@ label start:
 
     hise "Right."
 
-    show Nick at right
+    show nick jojo 2 at right
 
     hise "Hey... can you help us?"
 
@@ -183,11 +183,11 @@ label start:
 
     "Nick jojo joestar summons his three puppets "
 
-    show giorno at right
+    show giorno 2 at right
 
-    show polnareff at topright
+    show polnareff 2 at topright
 
-    show kira at topright
+    show kira 2 at topright
 
     nick "My Name is Nick Jojo Joestar, remember as the man who game ended you"
 
