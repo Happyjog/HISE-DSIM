@@ -275,11 +275,15 @@ label jojosuccess:
 
     scene merchant 2
 
-    "When we arrive in the shop, a red-headed shopkeeper awaited us."
-    
     show brit at truecenter
 
-    show hise smile at left
+    with dissolve
+
+    "When we arrive in the shop, a red-headed shopkeeper awaited us."
+    
+    
+
+    show hise smile at left with fade
 
     brit "Hello traveler, what can I do for you"
 
