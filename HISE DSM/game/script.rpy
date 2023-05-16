@@ -207,7 +207,7 @@ label start:
 
     u "Well you're still my teacher, teach me how to beat him!"
 
-        nick "Ignorant fools, I have no weaknesses."
+    nick "Ignorant fools, I have no weaknesses."
 
     nick "My puppets were a gift from the gods, they know no bounds and have no limits."
 
@@ -222,10 +222,10 @@ label start:
     menu:
 
         "We'll attack Nick jojo directly":
-            jump jojo success
+            jump jojosuccess
 
         "We'll wait for an opening and attack then":
-            jump jojo death
+            jump jojodeath
 
 
 
@@ -250,7 +250,7 @@ label start:
 
     return
 
-label jojo success:
+label jojosuccess:
     scene jojo meadow
     show hise smile at center
     hise "[u], we beat him, all thanks to your quick thinking."
@@ -339,7 +339,7 @@ label jojo success:
 
     u "I think it'll be alright, he knows the area better than we do after all?"
 
-label jojo death:
+label jojodeath:
     jump death
 
 label death:
