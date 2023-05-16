@@ -354,7 +354,9 @@ label jojosuccess:
     
     with dissolve
 
+    show brayden 1 at right
 
+    
 
 
 
@@ -364,6 +366,8 @@ label jojosuccess:
     brit "Look, its Braydon's army."
 
     "You peer over to the organized army and realize who is leading it."
+
+    show hise smile at topright
 
     john "It's Ms. Hise..."
 
@@ -470,6 +474,10 @@ label jojosuccess:
     bray "You shall die"
 
     "You unleashe a hidden dagger and stab Braydon in the heart"
+
+    hide brayden 1
+
+    show brayden 2 at right
 
     "We connect the peices. There is a flash of light."
 
