@@ -199,7 +199,7 @@ label start:
 
     "The puppets attack left right and center."
 
-    "Mrs hise and [u] take various blows, one after another"
+    "Mrs hise and [u] trade blows, one after another"
 
     u "Ms Hise... what do we do?!?"
 
@@ -343,7 +343,7 @@ label jojosuccess:
 
     u "I think it'll be alright, he probably knows the area better than we do."
 
-    "We march down to the battlefield where Braydon the Horrible awaited us."
+    "We march to the overlook above the battlefield where Braydon the Horrible awaited us."
 
     
     scene brayden battle 
