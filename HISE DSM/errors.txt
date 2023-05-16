@@ -2,9 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 200: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
-    "Done, Finished."
-    ^
+File "game/script.rpy", line 225: end of line expected.
+    jump jojo success
+              ^
+
+File "game/script.rpy", line 228: end of line expected.
+    jump jojo death
+              ^
+
+File "game/script.rpy", line 253: expected ':' not found.
+    label jojo success:
+               ^
+
+File "game/script.rpy", line 342: expected ':' not found.
+    label jojo death:
+               ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon May 15 14:22:01 2023
+Mon May 15 22:24:49 2023

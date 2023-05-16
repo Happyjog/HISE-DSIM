@@ -8,7 +8,7 @@ define u = Character("Anon")
 define ducky = Character("Rubber Duck")
 define bray = Character("Brayden")
 define nick = Character("NICK JOESTAR")
-define jojo = Character("Polnareff, Giorno, Kira Yoshikage")
+define stands = Character("Polnareff, Giorno, Kira Yoshikage")
 define brit = Character("Brit")
 define john = Character("Jonathan")
 
@@ -110,7 +110,7 @@ label start:
     u "Where is this Ms. Hise?"
     "Ms. Hise smirks bitterly and looks at the duck."
     ducky "Welcome, to Coderym!"
-    "The duck announces with great pride." 
+    "The duck announces with great pride."
     "Ms. Hise smiles at the duck and claps for him."
     hise "Now, Sir Rubber Duck, could you generously tell us what you need us to do now that [u] is up?"
     ducky "Oh... of course. *ahem*, first, I've seen how the woman can program. I need you two to get the Elder Code and change the world."
@@ -122,8 +122,17 @@ label start:
     "Another revelation. These stupid ducks summoned us here?"
     u "Woah, who said we wanted to be summoned?"
     "Ms. Hise pinches my leg."
-    
-    
+    hise "*whispering* {i}You're gonna antagonize the rubber ducks? What are you doing? AND they're cute!{/i} Sorry sir, he's still confused."
+    "The big dumb duck sighs and clears his throat again."
+    ducky "As I was going to explain, we are in a world where the very foundation of Law, Order, and Principle has been fractured."
+    ducky "Nick Jojo the Puppetmaster and Braydon the Horrible fractured the Elden Code and took the halves."
+    ducky "Your job is to retrieve the Elden Code and restore order to this world once again!"
+    ducky "Here is a map to Grit the Wise Shopkeeper's market. Confide with him and retrieve the code!"
+    "The duck shoves us out of the tavern and leaves us with nothing but a map to Grit's shop."
+    u "That dumb..."
+    hise "Okay! It's time to go!"
+    "Pointing toward the direction of the shop, she starts striding toward it. She seems awfully enthusiastic huh."
+    "And so we start our journey toward a shopkeeper we have never heard of in a land we have never seen before."
     
     #menu:
 
@@ -134,6 +143,122 @@ label start:
         #    jump death
 
 
+
+
+    
+
+
+
+
+    
+
+    
+    
+
+    scene jojo meadow
+
+    show hise smile at left
+
+    with dissolve
+
+        
+
+    hise "Look [u], it seems theres a local... lets go talk to him."
+
+    u "Ok Ms. Hise, but be careful... remember how we got here."
+
+    hise "Right."
+
+    show Nick at right
+
+    hise "Hey... can you help us?"
+
+    nick "Hmph... How impudent of you."
+
+    hise "Im sorry, we need directions to a city... or maybe a guide?"
+
+    nick "I dont waste my time with filth like you two."
+
+    nick "I shall teach grime like you a lesson."
+
+    "Nick jojo joestar summons his three puppets "
+
+    show giorno at right
+
+    show polnareff at topright
+
+    show kira at topright
+
+    nick "My Name is Nick Jojo Joestar, remember as the man who game ended you"
+
+    nick "Now my divine children, rid the land of these parasytes"
+
+    stands "Yes father, we serve you and only you."
+
+        
+
+    "The puppets attack left right and center."
+
+    "Mrs hise and [u] take various blows, one after another"
+
+    u "Ms Hise... what do we do?!?"
+
+    hise "Im at a loss [u], we have to find a weak spot of some sort"
+
+    u "Well you're still my teacher, teach me how to beat him!"
+
+    nick "Ignorant fools, I have no weaknesses."
+
+    nick "My puppets were a gift from the gods, they know no bounds and have no limits."
+
+    "*[u] whispers to Ms Hise*"
+
+    u "Ms Hise, he only mentioned his puppets."
+
+    u "What if directly attack him, and just evade his puppets attacks."
+
+    hise "We can try... its your call though"
+
+    menu:
+
+        "We'll attack Nick jojo directly":
+            jump jojosuccess
+
+        "We'll wait for an opening and attack then":
+            jump jojodeath
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return
+
+label jojosuccess:
+    scene jojo meadow
+    show hise smile at center
+    hise "[u], we beat him, all thanks to your quick thinking."
+
+    u "Thanks, but we still have to get home. "
+
+    # BRIT SCENE
+
     scene merchant 2
     
     show almost brit at center
@@ -142,7 +267,7 @@ label start:
 
     brit "Hello traveler, what can I do for you"
 
-    hise "We're lost... yo usee wh're not exactly from here"
+    hise "We're lost... yo usee whe're not exactly from here"
 
     brit "There there, the homesick feeling is one I know all to well"
 
@@ -212,43 +337,12 @@ label start:
 
     hise "[u]... are we sure we want to take him with us?"
 
-    u "I think it'll be alright, it seems he knows the area better than we do after all."
+    u "I think it'll be alright, he knows the area better than we do after all?"
 
-    
+label jojodeath:
+    jump death
 
-
-
-
-    
-
-    
-    
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    return
-
-    label death:
+label death:
     scene death
 
     "Done, Finished."
@@ -414,6 +508,47 @@ label start:
     #End of story
 
 
-     
+    #happy ending
 
+    #image of the rune
+
+    "We connect the peices. There is a flash of light."
+
+    #screen change to back to science Hill High School
+
+    "I'm sitting down, just as I was before all of the sleeping gas."
+
+    u "Was that real?"
+
+    hise "Yeah, it was real."
+
+    "A moment of silence."
+
+    hise "Let's forget this ever happened, all that matters is that we made it out safe."
+
+    u "I agree, that brought out the worst in both of us. Even so I see you in a better light despite your mind control."
+
+    "Ms. Hise starts to cry"
+
+    hise "I can't belive you can forgive me."
+
+    u "It's alright, it wasn't really you anyway."
+
+    "You get up to leave."
+
+    hise "I can't thank you enough for being so stoic."
+
+    u "Don't worry about it, I hope to see you soon."
+
+    hise "You too."
+
+    #end of good ending
+
+
+
+
+
+
+
+     
 
