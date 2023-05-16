@@ -251,7 +251,9 @@ label start:
     return
 
 label jojosuccess:
-    "Nick Jojo retaliates but you are easily able to overpower him. The puppets fall to the ground and cease all movement."
+    nick "Gah!"
+    "He quickly throws something at Ms. Hise, and it hits her. However, she could not feel anything hit her."
+    "Nick Jojo Joestar retaliates but you are easily able to overpower him. The puppets fall to the ground and cease all movement."
     hise "Quick, look for the shard of the Elden Code!"
     "You pat down Nick Jojo's body and find the shard inside of one of his bags."
     "She offers her open hand in front of her. I give it a smack, high-fiving her."
@@ -259,11 +261,19 @@ label jojosuccess:
     show hise smile at center
     hise "[u], we beat him, all thanks to your quick thinking."
 
-    u "Thanks, let's continue to ."
+    u "Thanks, did Nick Jojo Joestar throw something at you?"
+
+    hise "I believe he did, but I couldn't feel anything. I should be okay."
+
+    u "As long as you say you are okay... Alright, let's continue to Brit's shop!"
+
+    "We resume our travel."
 
     # BRIT SCENE
 
     scene merchant 2
+
+    "When we arrive in the shop, a red-headed shopkeeper awaited us."
     
     show brit at truecenter
 
